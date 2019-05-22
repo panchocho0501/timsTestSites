@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background: #eee;
+    height: auto;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin:0;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+img{
+    display: block;
+    border: 1px solid #021a40;
+    padding:1px;
+    width: 100%
+}
+
+main{
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0,0,0,0.1), 
+    -30px 0px 40px rgba(0,0,0,0.1);
+}
+
+#landing{
+    background: #fff;
+}
+
+#landingText{
+    display: flex;
+    flex: 0 1 40vw;
+    height: 30vh;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+#landingTextInner{
+    color: #888;
+}
+
+#landingImage{
+    background: url(https://d3d00swyhr67nd.cloudfront.net/_source/artuk_stories/Hunter%20paints%20Spreadout.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+
+.btn{
+    padding: 0.5rem 2rem;
+    border: 1px #ccc solid;
+    display: inline-block;
+    border-radius: 50px;
+    margin: 2rem 0 0;
+    text-decoration: none;
+    color: #333;
+    transition: background 500ms ease;
+}
+
+.btn:hover{
+    background: #f4f4f4
+}
+
+#header{
+    padding: 1.5rem;
+    text-align: center;
+    background: #333;
+    color:#fff;
+}
+
+
+#header h2{
+    border-left: dotted 1px #fff;
+    border-right: dotted 1px #fff;
+    display:inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.caption{
+    padding: 0.8rem;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333
+}
+
+/* Screen Sizes 500px and Up */
+/*
+@media(min-width:500px){
+    #landing{
+        display: flex;
+        height:100%;
+    }
+    #landingText{
+        height:100vh;
+    }
+    #landingImage{
+        height:100vh;
+        
+    }
+}
+
+@media(max-width:500px){
+    #landing{
+        display: flex;
+        height:100%;
+    }
+    #landingText{
+        display: flex;
+        flex: 0 1 40vw;
+        height: 30vh;
+        justify-content: center;
+        align-items:center;
+        text-align: center;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    #landingImage{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+        flex: 0 1 60vw;
+        margin: 0;
+    }
+}
+*/
+@media(min-width: 700px){
+    .btn{
+        padding: 1rem 3rem;
+    }
+}
